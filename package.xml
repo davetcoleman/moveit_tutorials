@@ -6,10 +6,11 @@
   <license>BSD</license>
 
   <author email="sachinc@willowgarage.com">Sachin Chitta</author>
-  <author email="dave@dav.ee">Dave Coleman</author>
+  <author email="dave@picknik.ai">Dave Coleman</author>
+  <author email="mike@picknik.ai">Mike Lautman</author>
 
-  <maintainer email="dave@dav.ee">Dave Coleman</maintainer>
-  <maintainer email="mferguson@fetchrobotics.com">Michael Ferguson</maintainer>
+  <maintainer email="dave@picknik.ai">Dave Coleman</maintainer>
+  <maintainer email="mike@picknik.ai">Mike Lautman</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
 
@@ -21,13 +22,22 @@
   <build_depend>interactive_markers</build_depend>
   <build_depend>geometric_shapes</build_depend>
   <build_depend>moveit_visual_tools</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>rosbag</build_depend>
 
+  <run_depend>panda_moveit_config</run_depend>
   <run_depend>pluginlib</run_depend>
   <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_commander</run_depend>
   <run_depend>moveit_fake_controller_manager</run_depend>
   <run_depend>moveit_ros_planning_interface</run_depend>
   <run_depend>moveit_ros_perception</run_depend>
   <run_depend>interactive_markers</run_depend>
   <run_depend>moveit_visual_tools</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>rosbag</run_depend>
 
 </package>
