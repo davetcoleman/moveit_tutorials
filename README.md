@@ -2,6 +2,8 @@
 
 This repo is automatically built by the ROS build farm and its output is hosted here: http://docs.ros.org/indigo/api/moveit_tutorials/html/
 
+TEST
+
 ## Travis Continuous Integration
 
 [![Build Status](https://travis-ci.org/ros-planning/moveit_tutorials.svg?branch=master)](https://travis-ci.org/ros-planning/moveit_tutorials)
