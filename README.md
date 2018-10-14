@@ -6,6 +6,8 @@ This repo is automatically built by the ROS build farm and its output is hosted 
 
 [![Build Status](https://travis-ci.org/ros-planning/moveit_tutorials.svg?branch=master)](https://travis-ci.org/ros-planning/moveit_tutorials)
 
+TEST
+
 ## ROS Buildfarm
 
 [![Build Status](http://build.ros.org/buildStatus/icon?job=Idoc__moveit_tutorials__ubuntu_trusty_amd64&build=2)](http://build.ros.org/job/Idoc__moveit_tutorials__ubuntu_trusty_amd64/2/)
