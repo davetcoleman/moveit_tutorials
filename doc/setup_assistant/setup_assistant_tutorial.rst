@@ -23,9 +23,9 @@ MoveIt! and ROS
   first if you have not already done that.
 
 * If you haven't already done so, make sure you have the `Franka description
-  package <https://github.com/frankaemika/franka_ros>`_ for Kinetic: ::
+  package <https://github.com/frankaemika/franka_ros>`_ for Melodic: ::
 
-   sudo apt-get install ros-kinetic-franka-description
+   sudo apt-get install ros-melodic-franka-description
 
 * If you have the ``panda_moveit_config`` package already git-cloned from the *Getting Started* page, be sure to delete that now since this tutorial will teach you how to create it from scratch: ::
 
@@ -52,8 +52,8 @@ Step 1: Start
 * Click on the browse button and navigate to the *panda_arm_hand.urdf.xacro* file
   installed when you installed the Franka package above. (This file
   gets installed in
-  /opt/ros/kinetic/share/franka_description/robots/panda_arm_hand.urdf.xacro on Ubuntu
-  with ROS Kinetic.)  Choose that file and then click *Load Files*. The
+  /opt/ros/melodic/share/franka_description/robots/panda_arm_hand.urdf.xacro on Ubuntu
+  with ROS Melodic.)  Choose that file and then click *Load Files*. The
   Setup Assistant will load the files (this might take a few seconds)
   and present you with this screen:
 
@@ -252,7 +252,7 @@ e.g. `point_cloud` parameters:
 
 For more details about those parameters please see perception pipeline tutorial_.
 
-.. _tutorial: http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/perception_pipeline/perception_pipeline_tutorial.html
+.. _tutorial: http://docs.ros.org/melodic/api/moveit_tutorials/html/doc/perception_pipeline/perception_pipeline_tutorial.html
 
 In case of `sensors_3d.yaml` was not needed, choose `None`.
 

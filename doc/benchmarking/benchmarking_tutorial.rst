@@ -1,7 +1,7 @@
 Benchmarking
 =====================
 
-.. note:: This is the new benchmarking method only available in ROS Kinetic, onward.
+.. note:: This is the new benchmarking method only available in ROS Melodic, onward.
 
 .. note:: To use this benchmarking method, you will need to download and install the ROS Warehouse plugin. Currently this is not available from Debians and requires a source install for at least some aspects. For source instructions, see `this page <http://moveit.ros.org/install/source/dependencies/>`_
 
@@ -9,7 +9,7 @@ Getting Started
 ---------------
 If you haven't already done so, make sure you've completed the steps in `Getting Started <../getting_started/getting_started.html>`_.
 
-The `benchmarking package <https://github.com/ros-planning/moveit/tree/kinetic-devel/moveit_ros/benchmarks>`_ provides methods to benchmark motion planning algorithms and aggregate/plot statistics using the OMPL Planner Arena.
+The `benchmarking package <https://github.com/ros-planning/moveit/tree/melodic-devel/moveit_ros/benchmarks>`_ provides methods to benchmark motion planning algorithms and aggregate/plot statistics using the OMPL Planner Arena.
 The example below demonstrates how the benchmarking can be run for a Panda robot arm.
 
 Example
